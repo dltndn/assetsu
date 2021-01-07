@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Assetsu</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="js-center center">
+      <div class="centerUp">
+        <a class="js-home home" href="home.html">Home</a>
+        <h2 class="signIn">Sign In</h2>
+      </div>
+      <div class="js-clock clock">
+        <div class="js-clockHM clockHM">
+          00:00
+        </div>
+        <div class="js-clockSec clockSec">
+          00
+        </div>
+      </div>
+      <div class="js-date date">
+        2020년00월00일
+      </div>
+    </div>
+    <form class="js-toDoForm toDoForm">
+      <input class="formInput" type="text" placeholder="할 일 메모" />
+    </form>
+
+    <div class="memo">
+      메모 목록
+      <ul class="js-toDoList toDoList"></ul>
+    </div>
+    <div class="js-weather weather"></div>
+    <script src="clock.js" charset="utf-8"></script>
+    <script src="date.js" charset="utf-8"></script>
+    <script src="todo.js" charset="utf-8"></script>
+    <script src="bj.js"></script>
+    <script src="weather.js" charset="utf-8"></script>
+  </body>
+</html>

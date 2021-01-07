@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="home.css">
+    <title>Assetsu</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="mainTitle">Assetsu</h1>
+    </div>
+    <div class="secondDiv">
+      <div class="secondDiv1">
+        <span class="assetPf">자산 포트폴리오</span>
+        <div class="graph js-graph">막대그래프</div>
+        <div class="assetCollection js-assetCollection">
+            <div class="realEstate js-realEstate">부동산</div>
+            <div class="stock js-stock">주식</div>
+            <div class="virtualAsset js-virtualAsset">디지털자산</div>
+            <div class="cash js-cash">현금</div>
+            <div class="others js-others">기타</div>
+        </div>
+      </div>
+      <div class="secondDiv2">
+        <div class="assetTotal">
+          <div>합계</div>
+          <div class="js-assetTotalIndex"></div>
+        </div>
+        <div class="assetCollection js-assetCollection">
+          <div class="realEstate js-realEstate">부동산</div>
+          <div class="stock js-stock">주식</div>
+          <div class="virtualAsset js-virtualAsset">디지털자산</div>
+          <div class="cash js-cash">현금</div>
+          <div class="others js-others">기타</div>
+        </div>
+      </div>
+    </div>
+    <div class="thirdDiv">
+      <div class="editAsset">
+        자산내역관리
+      </div>
+      <div class="assetCollectionEd js-assetCollectionEd">
+        <form class="realEstateEd js-realEstateEd">부동산
+          <input class="realEstateInput" type="number" placeholder="부동산 가격" />
+        </form>
+        <div class="assetIndexEd">
+          가격수정
+          <div class="js-realEstateIndex realEstateIndex"></div>
+        </div>
+        <form class="stockEd js-stockEd">주식
+          <input class="stockInput" type="number" placeholder="주식 가격" />
+        </form>
+        <div class="assetIndexEd">
+          가격수정
+          <div class="js-stockIndex stockIndex"></div>
+        </div>
+        <form class="virtualAssetEd js-virtualAssetEd">디지털자산
+          <input class="virtualAssetInput" type="number" placeholder="디지털자산 가격" />
+        </form>
+        <div class="assetIndexEd">
+          가격수정
+          <div class="js-virtualAssetIndex virtualAssetIndex"></div>
+        </div>
+        <form class="cashEd js-cashEd">현금
+          <input class="cashInput" type="number" placeholder="현금 가격" />
+        </form>
+        <div class="assetIndexEd">
+          가격수정
+          <div class="js-cashIndex cashIndex"></div>
+        </div>
+        <form class="othersEd js-othersEd">기타
+          <input class="othersInput" type="number" placeholder="기타 가격" />
+        </form>
+        <div class="assetIndexEd">
+          가격수정
+          <div class="js-othersIndex othersIndex"></div>
+        </div>
+      </div>
+    </div>
+    <script src="assetCollectionEd\realEstateEd.js" charset="utf-8"></script>
+    <script src="assetCollectionEd\stockEd.js" charset="utf-8"></script>
+    <script src="assetCollectionEd\virtualAssetEd.js" charset="utf-8"></script>
+    <script src="assetCollectionEd\cashEd.js" charset="utf-8"></script>
+    <script src="assetCollectionEd\othersEd.js" charset="utf-8"></script>
+    <script src="assetCollection\assetTotalIndex.js" charset="utf-8"></script>
+  </body>
+</html>

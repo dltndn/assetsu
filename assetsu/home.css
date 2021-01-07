@@ -1,0 +1,24 @@
+.mainTitle {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.secondDiv {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.secondDiv1 {
+  padding: 10px;
+}
+
+.assetCollection {
+  padding: 20px;
+}
+
+.secondDiv2 {
+  padding: 10px;
+}
